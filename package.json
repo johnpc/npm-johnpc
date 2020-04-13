@@ -1,0 +1,22 @@
+{
+  "name": "johnpc",
+  "version": "1.0.0",
+  "description": "A virtual npm business card",
+  "main": "index.js",
+  "bin": {
+    "johnpc": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnpc/npm-johnpc.git"
+  },
+  "author": "John Corser <john@johncorser.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnpc/npm-johnpc/issues"
+  },
+  "homepage": "https://github.com/johnpc/npm-johnpc#readme",
+  "dependencies": {
+    "colorette": "1.0.7"
+  }
+}
