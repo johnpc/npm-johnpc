@@ -22,11 +22,13 @@ const twitter = `${"🐦:"}  ${cyanBright("https://twitter.com/johnpcorser")}`;
 const instagram = `${"📸:"}  ${magenta("https://instagram.com/johnpc")}`;
 const github = `${"🐙:"}  ${green("https://github.com/johnpc")}`;
 const snapchat = `${"👻:"}  ${yellowBright("https://jpc.io/img/snapcode.png")}`;
-const linkedin = `${"💼:"}  ${red("https://www.linkedin.com/in/johncorser")}`;
+const linkedin = `${"💼:"}  ${red("https://linkedin.com/in/johncorser")}`;
 const web = `${"🤖:"}  ${blueBright("https://jpc.io")}`;
 const card = `${"📇:"}  ${white("npx johnpc")}`;
 
 const output =
+  linebreak +
+  newline +
   head +
   newline +
   linebreak +

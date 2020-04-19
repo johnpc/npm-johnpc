@@ -1,6 +1,6 @@
 {
   "name": "johnpc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A virtual npm business card",
   "main": "index.js",
   "bin": {
