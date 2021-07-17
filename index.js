@@ -11,6 +11,7 @@ const {
   dim,
   underline,
   bgYellowBright,
+  redBright,
   bgCyan,
 } = require("colorette");
 
@@ -24,8 +25,8 @@ const github = `${"🐙:"}  ${green("https://github.com/johnpc")}`;
 const snapchat = `${"👻:"}  ${yellowBright("https://jpc.io/img/snapcode.png")}`;
 const linkedin = `${"💼:"}  ${red("https://linkedin.com/in/johncorser")}`;
 const web = `${"🤖:"}  ${blueBright("https://jpc.io")}`;
+const blockchain = `₿: ${redBright("https://johnpc.eth.link")}`
 const card = `${"📇:"}  ${white("npx johnpc")}`;
-
 const output =
   linebreak +
   newline +
@@ -46,6 +47,8 @@ const output =
   linkedin +
   newline +
   web +
+  newline +
+  blockchain +
   newline +
   newline +
   card;
